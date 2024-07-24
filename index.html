@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- VERSÃO DO HTML -->
+<html lang="pt-br"> <!-- TAG DO HTML E LINGUA DO SITE -->
+
+<head> <!-- CONFIGURAÇÕES DO SITE -->
+    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES DO SITE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- SITE ABERTO TANTO EM CEL OU PC -->
+    <link rel="stylesheet" href="style.css"> <!--IMPORTANTO MEU ARQUIVO CSS -->
+    <title>Tesla</title> <!-- TITULO DO SITE -->
+</head>
+
+<!-- DIV É UMA CAIXA -->
+<!-- ul LISTA -->
+<!-- li ITEM DA LISTA -->
+
+<body>
+    <img src="./img/logo.png" alt="logo da tesla" class="logo">
+
+
+    <ul class="lista">
+        <!-- item 1 -->
+        <li class="item">
+
+            <video src="./img/model-y.mp4" autoplay loop muted></video>
+
+            <div class="info-carro">
+                <h1 class="model-y">Model Y</h1>
+                <p class="sub-titulo">Crédito fiscal federal de US$ 7.500 disponível1</p>
+            </div>
+
+            <div class="rodape">
+                <button onclick="aparecerFormulario()">Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-rodape">Copyright @Matheus Coelho</p>
+            </div>
+        </li>
+
+        <li class="item">
+            <!-- item 2 -->
+            <img src="./img/model-s.png" class="img-tesla" alt="imagem moldel s">
+
+            <div class="info-carro">
+                <h1 class="model-s">Model S</h1>
+                <p class="sub-titulo">A partir de $ 31.4903</p>
+            </div>
+        </li>
+
+        <li class="item">
+            <!-- item 3 -->
+            <img src="./img/model-x.png" class="img-tesla" alt="imagem model x">
+
+            <div class="info-carro">
+                <h1 class="model-x-cinza">Model X</h1>
+                <p class="sub-titulo">A partir de $ 63.990</p>
+            </div>
+        </li>
+    </ul>
+
+<div class="formulario">
+    <button onclick="desaparecerFormulario()">Fechar</button>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/241944418446664"></script>
+</div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
